@@ -1,8 +1,16 @@
-# Manejo de Información Saber 11 📊
+# 📌 Saber 11 - 2020
+
+> ⚠️ Estado: ***EN DESARROLLO*** Versión académica
+
+Implementacion de sistema que permite procesar y analizar información del examen Saber 11 aplicado en Colombia en el año 2020.
+
+---
+
+## 👥 Autores
 
 CLAUDIA PATRICIA CASTAÑEDA BERMUDEZ
-- LAURA VALENTINA TORRES CÁRDENAS <laura.torres-c@mail.escuelaing.edu.co>
-- JUAN SEBASTIÁN GUAYAZÁN CLAVIJO <juan.guayazan-c@mail.escuelaing.edu.co>
+- LAURA VALENTINA TORRES CÁRDENAS → [laura.torres-c@mail.escuelaing.edu.co](mailto:laura.torres-c@mail.escuelaing.edu.co) 
+- [JUAN SEBASTIÁN GUAYAZÁN CLAVIJO](https://github.com/JSGC-ECI) → [juan.guayazan-c@mail.escuelaing.edu.co](mailto:juan.guayazan-c@mail.escuelaing.edu.co)
 
 Algoritmos y Programación (ISIS AYPR-62 LEC y AYPR-6201 LAB)   
 Decanatura Ingeniería de Sistemas → Centro de Estudios de Fundamentos de Computación    
@@ -12,52 +20,114 @@ Escuela Colombiana de Ingeniería Julio Garavito
 
 ---
 
-## 📚 Descripción del proyecto
+## 🧠 Índice
 
-A partir de los resultados de la prueba Saber 11 - 2020 calendario A, se implementa un programa en Python que permite consultar y analizar distintos aspectos de los datos suministrados por el Ministerio de Educación. Se hace uso exclusivo de estructuras tipo **lista** y se evita el uso de funciones del core de Python que faciliten la solución.
-
-### 🔍 Objetivos de aprendizaje
-
-1. Aplicar algoritmos de búsqueda y ordenamiento.
-2. Fortalecer el manejo de strings (`str`).
-3. Trabajar con archivos `.csv` como texto, sin usar librerías externas.
-4. Implementar funciones específicas para cada requerimiento, respetando las restricciones del proyecto.
-
----
-
-## 🔧 Funcionalidades del programa
-
-El menú principal permite ejecutar las siguientes consultas:
-
-1. ✅ Contar la cantidad de estudiantes hombres y mujeres.
-2. 🌍 Listar países alfabéticamente con la cantidad de estudiantes por país.
-3. 🇨🇴 Listar estudiantes de una nacionalidad dada, ordenados por puntaje total (de mayor a menor).
-4. 📘 Listar cantidad de estudiantes agrupados por número de libros en casa.
-5. 🏙️ Listar estudiantes por puntaje en lectura crítica en una ciudad dada (orden ascendente).
+* 📌 [Nombre del Proyecto](#-saber-11---2020)
+* 🚀 [Características](#-características)
+* ⚙️ [Tecnologías](#️-tecnologías)
+* 📦 [Instalación](#-instalación-y-requisitos)
+* ▶️ [Uso](#️-uso)
+* 🧪 [Pruebas](#-pruebas)
+* 📁 [Estructura del Proyecto](#-estructura-del-proyecto)
+* 📌 [TODOs / Funcionalidades Futuras](#-todos--funcionalidades-futuras)
+* 👥 [Autores](#-autores)
+* 📄 [Licencia](#-licencia)
 
 ---
 
-## 🛠️ Requerimientos técnicos
+## 🚀 Características
+
+* ✅ Carga y análisis de datos CSV del Saber 11 (2020)
+* ✅ Implementación propia de algoritmos de búsqueda y ordenamiento
+* ✅ Visualización de listados ordenados y filtrados
+* ✅ Menú interactivo con múltiples consultas
+* ✅ Sin funciones del core de Python
+* ✅ Incluye herramientas de búsqueda y ordenamiento implementadas 
+
+---
+
+## ⚙️ Tecnologías
+
+* Lenguaje: `Python`
+* Herramientas: `Editor de texto`, `Terminal`
+* No se usaron librerías externas
+
+---
+
+## 📦 Instalación y Requisitos
+
+### Clonar el repositorio
+
+```bash
+git clone https://github.com/JSGC-ECI/Saber-11-2020-AYPR.git
+```
+
+### Requisitos
 
 * Python 3.x
-* No se hace uso de:
-  * Funciones como `sort()`, `sorted()`, `in`, ni estructuras como `dict`, `set`, `array`, etc.
-  * Librerías externas (como `csv`, `pandas`, `numpy`, etc.)
+* Archivo `Saber-11.csv` descargado desde [datos.gov.co](https://www.datos.gov.co/Educaci-n/Saber-11-2020-2/rnvb-vnyh)
+
+### Instalación
+
+1. Guardar el archivo `.csv` en el mismo directorio del programa.
+2. Ejecutar el archivo `main.py` o el que contiene la función `main()`.
 
 ---
 
-## 📝 Notas importantes
+## ▶️ Uso
 
-* Todas las funciones están documentadas utilizando docstrings.
-* El código fue desarrollado aplicando buenas prácticas de programación y estilo.
-* Se implementaron algoritmos personalizados de ordenamiento y búsqueda.
-* El archivo CSV fue tratado como texto plano (`.txt`) y procesado línea por línea.
+> \[!NOTE]
+> Al ejecutar el programa, se muestra un menú interactivo con opciones como:
+> * Cantidad de estudiantes por género.
+> * Listado de países ordenado alfabéticamente.
+> * Puntajes por nacionalidad.
+> * Estudiantes por cantidad de libros en casa.
+> * Puntajes por ciudad.
+
+
+> [!WARNING]\
+> Todas las operaciones de ordenamiento y búsqueda fueron implementadas sin usar funciones como `sorted()`, `sort()` ni el operador `in`.
+
+
+
 
 ---
 
-## 📎 Fuente de datos
+## 🧪 Pruebas
 
-Los datos fueron obtenidos de Datos Abiertos Colombia:
-[🔗 Saber 11 - 2020-2 (datos.gov.co)](https://www.datos.gov.co/Educaci-n/Saber-11-2020-2/rnvb-vnyh)
+Este proyecto fue validado manualmente en clase mediante múltiples casos de prueba usando diferentes archivos CSV de entrada.
+
+---
+
+## 📁 Estructura del Proyecto
+
+```bash
+📦 Saber-11-2020-AYPR
+ ┗ 📜 ProyectoSaber11
+```
+
+---
+
+## 📌 TODOs / Funcionalidades Futuras
+
+* [ ] Implementar interfaz gráfica.
+* [ ] Exportar resultados filtrados a archivos de salida.
+* [ ] Agregar pruebas unitarias automáticas.
+
+---
+
+## 📊 Estadísticas del Repositorio
+
+![Lenguaje principal](https://img.shields.io/github/languages/top/JSGC-ECI/Saber-11-2020-AYPR?style=flat-square)
+![Tamaño del repositorio](https://img.shields.io/github/repo-size/JSGC-ECI/Saber-11-2020-AYPR?style=flat-square)
+![Stars](https://img.shields.io/github/stars/JSGC-ECI/Saber-11-2020-AYPR?style=flat-square)
+![Forks](https://img.shields.io/github/forks/JSGC-ECI/Saber-11-2020-AYPR?style=flat-square)
+![Issues abiertas](https://img.shields.io/github/issues/JSGC-ECI/Saber-11-2020-AYPR?style=flat-square)
+
+---
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo propósitos académicos y educativos. Puedes consultar el archivo [LICENSE](./LICENSE) para más información.
 
 ---
