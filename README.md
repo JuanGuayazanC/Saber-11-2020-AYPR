@@ -42,7 +42,6 @@ Escuela Colombiana de Ingeniería Julio Garavito
 * ✅ Visualización de listados ordenados y filtrados
 * ✅ Menú interactivo con múltiples consultas
 * ✅ Sin funciones del core de Python
-* ✅ Incluye herramientas de búsqueda y ordenamiento implementadas 
 
 ---
 
@@ -87,8 +86,6 @@ git clone https://github.com/JSGC-ECI/Saber-11-2020-AYPR.git
 
 > [!WARNING]\
 > Todas las operaciones de ordenamiento y búsqueda fueron implementadas sin usar funciones como `sorted()`, `sort()` ni el operador `in`.
-
-
 
 
 ---
